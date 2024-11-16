@@ -1,0 +1,78 @@
+<UIGroup name="Options">
+
+	<UIObject name="background" x="0" y="0">
+		<UISprite texture="Background"/>
+	</UIObject>
+	
+	<UIObject name="title" x="256" y="10">
+		<UISprite texture="MenuOptions"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+	<UIObject name="MasterVolumeTitle" x="128" y="128">
+		<UISprite texture="MasterTitle"/>
+	</UIObject>
+
+	<UIObject name="MusicVolumeTitle" x="128" y="196">
+		<UISprite texture="MusicTitle"/>
+	</UIObject>
+
+	<UIObject name="SFXVolumeTitle" x="128" y="256">
+		<UISprite texture="SFXTitle"/>
+	</UIObject>
+
+	<UIObject name="MasterSlider" x="350" y="128">
+		<UISprite width="128" height="32" texture="SliderBack"/>
+		<UISlider width="128" height="32" UIMapping="Options" UICallback="SetMasterVolume" UIValue="GetMasterVolume" button="SliderButton"/>
+	</UIObject>
+	
+	<UIObject name="MusicSlider" x="350" y="196">
+		<UISprite width="128" height="32" texture="SliderBack"/>
+		<UISlider width="128" height="32" UIMapping="Options" UICallback="SetMusicVolume" UIValue="GetMusicVolume" button="SliderButton"/>
+	</UIObject>
+	
+	<UIObject name="SFXSlider" x="350" y="256">
+		<UISprite width="128" height="32" texture="SliderBack"/>
+		<UISlider width="128" height="32" UIMapping="Options" UICallback="SetSFXVolume" UIValue="GetSFXVolume" button="SliderButton"/>
+	</UIObject>
+
+	<UIObject name="TestSFX" x="490" y="256">
+		<UISprite texture="VolumeCheck"/>
+		<UIButton UIMapping="Options" UICallback="TestSFXVolume" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="AutoFireSettings">
+		<UIStateVisibility UIMapping="Options" UIStateMapping="GetAutoFireState" activeState="Enabled">
+			<VisibilityToggle target="AutoFireEnabled" visible="true"/>
+			<VisibilityToggle target="AutoFireDisabled" visible="false"/>
+		</UIStateVisibility>
+
+		<UIStateVisibility UIMapping="Options" UIStateMapping="GetAutoFireState" activeState="Disabled">
+			<VisibilityToggle target="AutoFireEnabled" visible="false"/>
+			<VisibilityToggle target="AutoFireDisabled" visible="true"/>
+		</UIStateVisibility>
+
+		<UIObject name="AutoFireTitle" x="128" y="320">
+			<UISprite texture="AutoFireTitle"/>
+		</UIObject>
+
+		<UIObject name="AutoFireEnabled" x="351" y="320">
+			<UISprite texture="AutoFireEnabled"/>
+			<UIButton UIMapping="Options" UICallback="ToggleAutoFire" hoveredTexture="ButtonHovered"/>
+		</UIObject>
+
+		<UIObject name="AutoFireDisabled" x="351" y="321">
+			<UISprite texture="AutoFireDisabled"/>
+			<UIButton UIMapping="Options" UICallback="ToggleAutoFire" hoveredTexture="ButtonHovered"/>
+		</UIObject>
+	</UIObject>
+	
+	<UIObject name="Quit" x="256" y="400">
+		<UISprite texture="Confirm"/>
+		<UIButton UIMapping="Options" UICallback="Confirm" hoveredTexture="ButtonHovered"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+</UIGroup>

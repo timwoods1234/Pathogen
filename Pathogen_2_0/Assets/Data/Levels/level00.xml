@@ -1,0 +1,7 @@
+<Level>
+	<LevelEntry Definition="Enemy/Egg" x="304.000" y="240.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="304.000" y="224.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="320.000" y="240.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="288.000" y="240.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="304.000" y="256.000"/>
+</Level>

@@ -1,0 +1,63 @@
+<UIGroup name="LevelEditor">
+
+	<UIStateVisibility UIMapping="LevelEditor" UIStateMapping="DeleteModeState" activeState="Enabled">
+		<VisibilityToggle target="deleteEnabled" visible="true"/>
+		<VisibilityToggle target="deleteDisabled" visible="false"/>
+	</UIStateVisibility>
+	
+	<UIStateVisibility UIMapping="LevelEditor" UIStateMapping="DeleteModeState" activeState="Disabled">
+		<VisibilityToggle target="deleteEnabled" visible="false"/>
+		<VisibilityToggle target="deleteDisabled" visible="true"/>
+	</UIStateVisibility>
+
+	<UIObject name="deleteEnabled" x="0" y="208">
+		<UISprite texture="DeleteEnabled" width="64" height="64"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="ToggleDelete" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="deleteDisabled" x="0" y="272">
+		<UISprite texture="DeleteDisabled" width="64" height="64"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="ToggleDelete" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="save" x="0" y="336">
+		<UISprite texture="Save" width="64" height="64"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="Save" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="load" x="0" y="400">
+		<UISprite texture="Load" width="64" height="64"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="Load" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="eggButton" x="10" y="10">
+		<VariableIndex index="0"/>
+		<UISprite width="64" height="64" UIMapping="LevelEditor" UISpriteMapping="GetSprite"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="SelectEntityDefinition" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="superEggButton" x="85" y="10">
+		<VariableIndex index="1"/>
+		<UISprite width="64" height="64" UIMapping="LevelEditor" UISpriteMapping="GetSprite"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="SelectEntityDefinition" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="aiHomingButton" x="195" y="10">
+		<VariableIndex index="2"/>
+		<UISprite width="64" height="64" UIMapping="LevelEditor" UISpriteMapping="GetSprite"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="SelectEntityDefinition" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="superEggButton" x="265" y="10">
+		<VariableIndex index="3"/>
+		<UISprite width="64" height="64" UIMapping="LevelEditor" UISpriteMapping="GetSprite"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="SelectEntityDefinition" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="superEggButton" x="435" y="10">
+		<VariableIndex index="4"/>
+		<UISprite width="64" height="64" UIMapping="LevelEditor" UISpriteMapping="GetSprite"/>
+		<UIButton width="64" height="64" UIMapping="LevelEditor" UICallback="SelectEntityDefinition" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+</UIGroup>

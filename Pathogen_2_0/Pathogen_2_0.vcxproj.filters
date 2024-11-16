@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game States">
+      <UniqueIdentifier>{5a6a45c9-e357-42a5-9aae-7fd624c6a8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{1e5b69db-5f89-48ee-84ff-fe15cf5df8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{6cf8541f-65ed-4ebf-9dd7-c7324461d182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{beae3d51-097e-43f1-bb81-51ae3a8bd949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSettings">
+      <UniqueIdentifier>{3d540a30-c192-4dbb-b68a-5e339c8f15ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Options">
+      <UniqueIdentifier>{4463865d-e786-444b-907d-01a6c7e10434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerData">
+      <UniqueIdentifier>{df7ecde9-36d5-4ab5-bc14-fb1ac039f5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerData\Hall Of Fame">
+      <UniqueIdentifier>{69f13bbf-5dbd-47f6-a383-b6afb378d0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerData\PlayerStats">
+      <UniqueIdentifier>{f51511ff-4a29-4850-b758-17dd43c3a89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{4ac5d0b8-b869-4f67-a269-f3e0fc49aed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{07989ad9-1b1d-4201-aff3-ab50c164b503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LevelEditor">
+      <UniqueIdentifier>{e88c0091-8c04-4d88-85bf-a70b8c55767b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{5136aa63-3bfc-442e-be53-e4ea3fcee009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9f092936-6070-434a-99b8-902dcb86f8ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameState_GameOver.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_HallOfFame.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Menu.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Options.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_Playing.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PathogenGame.cpp" />
+    <ClCompile Include="UIOptions.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Options</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMainMenu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHallOfFame.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStats.cpp">
+      <Filter>PlayerData\PlayerStats</Filter>
+    </ClCompile>
+    <ClCompile Include="HallOfFameEntry.cpp">
+      <Filter>PlayerData\Hall Of Fame</Filter>
+    </ClCompile>
+    <ClCompile Include="HallOfFame.cpp">
+      <Filter>PlayerData\Hall Of Fame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_EnterHallOfFame.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPlayerStats.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>GameSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController_Base.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController_GoForward.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController_RandomDirections.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AISharedFunctions.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController_Homing.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="AIPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="DamagePluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="DamagePlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController_Base.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController_Keyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController_Mouse.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="ShooterPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="ShooterPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorePluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorePlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_StartNextLevel.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_EditLevel.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditor.cpp">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorDisplay.cpp">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorEntry.cpp">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="UILevelEditor.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorEntryList.cpp">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorDefinitionList.cpp">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorStorage.cpp">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelList.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelLoader.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapePlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapePluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPlaying.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelHelper.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EggPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="EggPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPositionPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPositionPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGameOver.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState_LevelCompleted.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseStateUpdater.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PulseOverTimePlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="PulseOverTimePluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameState_GameOver.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_HallOfFame.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Menu.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Options.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_Playing.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="PathogenGame.h" />
+    <ClInclude Include="AIController_Base.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController_GoForward.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController_Homing.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController_RandomDirections.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>GameSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="HallOfFame.h">
+      <Filter>PlayerData\Hall Of Fame</Filter>
+    </ClInclude>
+    <ClInclude Include="HallOfFameEntry.h">
+      <Filter>PlayerData\Hall Of Fame</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityType.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Options</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStats.h">
+      <Filter>PlayerData\PlayerStats</Filter>
+    </ClInclude>
+    <ClInclude Include="AIPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="AIPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="EggPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="EggPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorePlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorePluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="ShooterPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="ShooterPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHallOfFame.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMainMenu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIOptions.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_EnterHallOfFame.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPlayerStats.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AISharedFunctions.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DamagePluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="DamagePlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController_Mouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController_Keyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController_Base.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_StartNextLevel.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditor.h">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_EditLevel.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelHelper.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorDisplay.h">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorEntryList.h">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorDefinitionList.h">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorEntry.h">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="UILevelEditor.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorStorage.h">
+      <Filter>Tools\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelList.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelLoader.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="EscapePlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="EscapePluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPlaying.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPositionPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPositionPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGameOver.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_LevelCompleted.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseStateUpdater.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PulseOverTimePlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="PulseOverTimePluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

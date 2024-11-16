@@ -1,0 +1,25 @@
+<UIGroup name="EnterHallOfFame">
+
+	<UIObject name="background" x="0" y="0">
+		<UISprite texture="Background" width="640" height="480"/>
+	</UIObject>
+	
+	<UIObject name="title" x="192" y="10">
+		<UISprite texture="MenuHOF"/>
+	</UIObject>
+
+	<UIObject name="currentNameLabel" x="128" y="300">
+		<UILabel font="Helvetica" defaultText="Enter Your Name"/>
+	</UIObject>
+
+	<UIObject name="currentNamePrompt" x="256" y="300">
+		<UILabel font="Helvetica" defaultText="AAA"/>
+		<UIInputField UIMapping="HallOfFame" UIStringMapping="UpdatePlayerName" autoFocus="true" maxLength="15"/>
+	</UIObject>
+
+	<UIObject name="quitButton" x="256" y="400">
+		<UISprite texture="MenuQuit" width="128" height="32"/>
+		<UIButton UIMapping="HallOfFame" UICallback="ConfirmNameEntry" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+</UIGroup>

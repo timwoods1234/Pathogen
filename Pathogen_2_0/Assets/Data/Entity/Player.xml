@@ -1,0 +1,9 @@
+<EntityDefinition name="Player">
+	<Collider radius="5"/>
+	<Sprite filename="Player"/>
+	<Health maxHealth="1.0" invulTime="1.0"/>
+	<PlayerPositionPlugin distance="215.0" speed="2.5"/>
+	<Shooter timeBetweenAttacks="0.2" fireSound="laser"/>
+	<Death deathParticle="ParticleEffect" deathSound="explosion"/>
+	<Input deadzone="3"/>
+</EntityDefinition>

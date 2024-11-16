@@ -1,0 +1,132 @@
+<UIGroup name="HallOfFame">
+
+	<UIObject name="title" x="256" y="10">
+		<UISprite texture="MenuHOF"/>
+	</UIObject>
+	
+	<UIObject name="quit" x="256" y="400">
+		<UISprite texture="Exit"/>
+		<UIButton UIMapping="HallOfFame" UICallback="GoToMenu" hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+	<UIObject name="Score0" x="192" y="100">
+		<VariableIndex index="0"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score1" x="192" y="130">
+		<VariableIndex index="1"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score2" x="192" y="160">
+		<VariableIndex index="2"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score3" x="192" y="190">
+		<VariableIndex index="3"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score4" x="192" y="210">
+		<VariableIndex index="4"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score5" x="192" y="240">
+		<VariableIndex index="5"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score6" x="192" y="270">
+		<VariableIndex index="6"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score7" x="192" y="300">
+		<VariableIndex index="7"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score8" x="192" y="330">
+		<VariableIndex index="8"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+	<UIObject name="Score9" x="192" y="360">
+		<VariableIndex index="9"/>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Score0"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetScoreAtIndex"/>
+		</UIObject>
+		<UIObject>
+			<UILabel font="Helvetica" defaultText="Name0" offsetX="100"/>
+			<UILabelUpdater UIMapping="HallOfFame" UIStringMapping="GetNameAtIndex"/>
+		</UIObject>
+	</UIObject>
+
+</UIGroup>

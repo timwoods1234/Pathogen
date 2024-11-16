@@ -1,0 +1,25 @@
+<UIGroup name="ConfirmNewGame">
+
+	<UIObject name="background" x="0" y="0">
+		<UISprite texture="Background"/>
+	</UIObject>
+	
+	<UIObject name="Text" x="120" y="150">
+		<UILabel font="Helvetica" defaultText="Are you sure you want to abandon your current game?"/>
+	</UIObject>
+
+	<UIObject name="Confirm" x="120" y="250">
+		<UISprite texture="Confirm"/>
+		<UIButton UIMapping="Menu" UICallback="ConfirmNewGame"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+	<UIObject name="Cancel" x="340" y="250">
+		<UISprite texture="Cancel"/>
+		<UIButton UIMapping="Menu" UICallback="HideConfirmNewGame" hoveredTexture="ButtonHovered"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+</UIGroup>

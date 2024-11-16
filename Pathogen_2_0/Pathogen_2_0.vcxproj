@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E47F089-3792-4C76-B1AE-B532445CCDE3}</ProjectGuid>
+    <RootNamespace>Pathogen_2_0</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..\..\TEngine_1_1\TEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ProjectDir)\..\Debug;$(ProjectDir)\..\..\TEngine_1_1\TEngine\3rd Party\directx\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ShowProgress>NotSet</ShowProgress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AIController_Base.cpp" />
+    <ClCompile Include="AIController_GoForward.cpp" />
+    <ClCompile Include="AIController_Homing.cpp" />
+    <ClCompile Include="AIController_RandomDirections.cpp" />
+    <ClCompile Include="AIPlugin.cpp" />
+    <ClCompile Include="AIPluginDefinition.cpp" />
+    <ClCompile Include="AISharedFunctions.cpp" />
+    <ClCompile Include="DamagePlugin.cpp" />
+    <ClCompile Include="DamagePluginDefinition.cpp" />
+    <ClCompile Include="DeathPlugin.cpp" />
+    <ClCompile Include="DeathPluginDefinition.cpp" />
+    <ClCompile Include="EditorPlugin.cpp" />
+    <ClCompile Include="EditorPluginDefinition.cpp" />
+    <ClCompile Include="EffectPlugin.cpp" />
+    <ClCompile Include="EffectPluginDefinition.cpp" />
+    <ClCompile Include="EggPlugin.cpp" />
+    <ClCompile Include="EggPluginDefinition.cpp" />
+    <ClCompile Include="EscapePlugin.cpp" />
+    <ClCompile Include="EscapePluginDefinition.cpp" />
+    <ClCompile Include="GameSettings.cpp" />
+    <ClCompile Include="GameState_EditLevel.cpp" />
+    <ClCompile Include="GameState_EnterHallOfFame.cpp" />
+    <ClCompile Include="GameState_GameOver.cpp" />
+    <ClCompile Include="GameState_HallOfFame.cpp" />
+    <ClCompile Include="GameState_LevelCompleted.cpp" />
+    <ClCompile Include="GameState_Menu.cpp" />
+    <ClCompile Include="GameState_Options.cpp" />
+    <ClCompile Include="GameState_Playing.cpp" />
+    <ClCompile Include="GameState_StartNextLevel.cpp" />
+    <ClCompile Include="HallOfFame.cpp" />
+    <ClCompile Include="HallOfFameEntry.cpp" />
+    <ClCompile Include="HealthPlugin.cpp" />
+    <ClCompile Include="HealthPluginDefinition.cpp" />
+    <ClCompile Include="InputController_Base.cpp" />
+    <ClCompile Include="InputController_Keyboard.cpp" />
+    <ClCompile Include="InputController_Mouse.cpp" />
+    <ClCompile Include="InputPlugin.cpp" />
+    <ClCompile Include="InputPluginDefinition.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="LevelEditor.cpp" />
+    <ClCompile Include="LevelEditorDefinitionList.cpp" />
+    <ClCompile Include="LevelEditorDisplay.cpp" />
+    <ClCompile Include="LevelEditorEntry.cpp" />
+    <ClCompile Include="LevelEditorEntryList.cpp" />
+    <ClCompile Include="LevelEditorStorage.cpp" />
+    <ClCompile Include="LevelHelper.cpp" />
+    <ClCompile Include="LevelList.cpp" />
+    <ClCompile Include="LevelLoader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MovementPlugin.cpp" />
+    <ClCompile Include="MovementPluginDefinition.cpp" />
+    <ClCompile Include="MusicManager.cpp" />
+    <ClCompile Include="Options.cpp" />
+    <ClCompile Include="PathogenGame.cpp" />
+    <ClCompile Include="PauseStateUpdater.cpp" />
+    <ClCompile Include="PlayerPositionPlugin.cpp" />
+    <ClCompile Include="PlayerPositionPluginDefinition.cpp" />
+    <ClCompile Include="PlayerStats.cpp" />
+    <ClCompile Include="PulseOverTimePlugin.cpp" />
+    <ClCompile Include="PulseOverTimePluginDefinition.cpp" />
+    <ClCompile Include="ScorePlugin.cpp" />
+    <ClCompile Include="ScorePluginDefinition.cpp" />
+    <ClCompile Include="ShooterPlugin.cpp" />
+    <ClCompile Include="ShooterPluginDefinition.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="UIGameOver.cpp" />
+    <ClCompile Include="UIHallOfFame.cpp" />
+    <ClCompile Include="UILevelEditor.cpp" />
+    <ClCompile Include="UIMainMenu.cpp" />
+    <ClCompile Include="UIOptions.cpp" />
+    <ClCompile Include="UIPlayerStats.cpp" />
+    <ClCompile Include="UIPlaying.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIController_Base.h" />
+    <ClInclude Include="AIController_GoForward.h" />
+    <ClInclude Include="AIController_Homing.h" />
+    <ClInclude Include="AIController_RandomDirections.h" />
+    <ClInclude Include="AIPlugin.h" />
+    <ClInclude Include="AIPluginDefinition.h" />
+    <ClInclude Include="AISharedFunctions.h" />
+    <ClInclude Include="DamagePlugin.h" />
+    <ClInclude Include="DamagePluginDefinition.h" />
+    <ClInclude Include="DeathPlugin.h" />
+    <ClInclude Include="DeathPluginDefinition.h" />
+    <ClInclude Include="EditorPlugin.h" />
+    <ClInclude Include="EditorPluginDefinition.h" />
+    <ClInclude Include="EffectPlugin.h" />
+    <ClInclude Include="EffectPluginDefinition.h" />
+    <ClInclude Include="EggPlugin.h" />
+    <ClInclude Include="EggPluginDefinition.h" />
+    <ClInclude Include="EntityType.h" />
+    <ClInclude Include="EscapePlugin.h" />
+    <ClInclude Include="EscapePluginDefinition.h" />
+    <ClInclude Include="GameSettings.h" />
+    <ClInclude Include="GameState_EditLevel.h" />
+    <ClInclude Include="GameState_EnterHallOfFame.h" />
+    <ClInclude Include="GameState_GameOver.h" />
+    <ClInclude Include="GameState_HallOfFame.h" />
+    <ClInclude Include="GameState_LevelCompleted.h" />
+    <ClInclude Include="GameState_Menu.h" />
+    <ClInclude Include="GameState_Options.h" />
+    <ClInclude Include="GameState_Playing.h" />
+    <ClInclude Include="GameState_StartNextLevel.h" />
+    <ClInclude Include="HallOfFame.h" />
+    <ClInclude Include="HallOfFameEntry.h" />
+    <ClInclude Include="HealthPlugin.h" />
+    <ClInclude Include="HealthPluginDefinition.h" />
+    <ClInclude Include="InputController_Base.h" />
+    <ClInclude Include="InputController_Keyboard.h" />
+    <ClInclude Include="InputController_Mouse.h" />
+    <ClInclude Include="InputPlugin.h" />
+    <ClInclude Include="InputPluginDefinition.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="LevelEditor.h" />
+    <ClInclude Include="LevelEditorDefinitionList.h" />
+    <ClInclude Include="LevelEditorDisplay.h" />
+    <ClInclude Include="LevelEditorEntry.h" />
+    <ClInclude Include="LevelEditorEntryList.h" />
+    <ClInclude Include="LevelEditorStorage.h" />
+    <ClInclude Include="LevelHelper.h" />
+    <ClInclude Include="LevelList.h" />
+    <ClInclude Include="LevelLoader.h" />
+    <ClInclude Include="MovementPlugin.h" />
+    <ClInclude Include="MovementPluginDefinition.h" />
+    <ClInclude Include="MusicManager.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="PathogenGame.h" />
+    <ClInclude Include="PauseStateUpdater.h" />
+    <ClInclude Include="PlayerPositionPlugin.h" />
+    <ClInclude Include="PlayerPositionPluginDefinition.h" />
+    <ClInclude Include="PlayerStats.h" />
+    <ClInclude Include="PulseOverTimePlugin.h" />
+    <ClInclude Include="PulseOverTimePluginDefinition.h" />
+    <ClInclude Include="ScorePlugin.h" />
+    <ClInclude Include="ScorePluginDefinition.h" />
+    <ClInclude Include="ShooterPlugin.h" />
+    <ClInclude Include="ShooterPluginDefinition.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="UIGameOver.h" />
+    <ClInclude Include="UIHallOfFame.h" />
+    <ClInclude Include="UILevelEditor.h" />
+    <ClInclude Include="UIMainMenu.h" />
+    <ClInclude Include="UIOptions.h" />
+    <ClInclude Include="UIPlayerStats.h" />
+    <ClInclude Include="UIPlaying.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,56 @@
+<UIGroup name="MainMenu">
+
+	<UIStateVisibility UIMapping="Menu" UIStateMapping="ResumeAvailable" activeState="True">
+		<VisibilityToggle target="Resume" visible="true"/>
+	</UIStateVisibility>
+
+	<UIStateVisibility UIMapping="Menu" UIStateMapping="ResumeAvailable" activeState="False">
+		<VisibilityToggle target="Resume" visible="false"/>
+	</UIStateVisibility>
+
+	<UIObject name="background" x="0" y="0">
+		<UISprite texture="Background"/>
+	</UIObject>
+	
+	<UIObject name="Title" x="256" y="50">
+		<UISprite texture="MenuTitle"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+	<UIObject name="Resume" x="256" y="100">
+		<UISprite texture="MenuResume"/>
+		<UIButton UIMapping="Menu" UICallback="Resume" hoveredTexture="ButtonHovered"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+	<UIObject name="New" x="256" y="140">
+		<UISprite texture="MenuNew"/>
+		<UIButton UIMapping="Menu" UICallback="NewGame" hoveredTexture="ButtonHovered"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+	<UIObject name="HallOfFame" x="256" y="180">
+		<UISprite texture="MenuHOF"/>
+		<UIButton UIMapping="Menu" UICallback="ViewHallOfFame" hoveredTexture="ButtonHovered"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+	<UIObject name="Options" x="256" y="220">
+		<UISprite texture="MenuOptions"/>
+		<UIButton UIMapping="Menu" UICallback="Options" hoveredTexture="ButtonHovered"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+	<UIObject name="Quit" x="256" y="400">
+		<UISprite texture="MenuQuit"/>
+		<UIButton UIMapping="Menu" UICallback="Quit" hoveredTexture="ButtonHovered"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+</UIGroup>

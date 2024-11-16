@@ -1,0 +1,26 @@
+<Level>
+	<LevelEntry Definition="Enemy/SuperEgg" x="368.000" y="256.000"/>
+	<LevelEntry Definition="Enemy/SuperEgg" x="320.000" y="256.000"/>
+	<LevelEntry Definition="Enemy/SuperEgg" x="192.000" y="160.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="192.000" y="144.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="208.000" y="160.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="192.000" y="176.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="176.000" y="160.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="320.000" y="224.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="368.000" y="224.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="384.000" y="240.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="400.000" y="240.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="400.000" y="256.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="304.000" y="240.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="288.000" y="240.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="288.000" y="256.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="288.000" y="304.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="288.000" y="320.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="304.000" y="320.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="320.000" y="320.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="400.000" y="304.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="384.000" y="320.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="368.000" y="320.000"/>
+	<LevelEntry Definition="Enemy/Egg" x="400.000" y="320.000"/>
+	<LevelEntry Definition="Enemy/SuperEgg" x="336.000" y="304.000"/>
+</Level>

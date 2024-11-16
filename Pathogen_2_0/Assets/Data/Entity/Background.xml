@@ -1,0 +1,3 @@
+<EntityDefinition name="Background">
+	<Sprite filename="Background"/>
+</EntityDefinition>

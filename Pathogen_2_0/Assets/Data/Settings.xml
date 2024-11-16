@@ -1,0 +1,1 @@
+<GameSettings maxEggs="600" maxEnemies="200" tileSize="16" gridSize="40" enemyDestroyDistance="256" enemyEscapeDistance="128" maxShield="100"/>

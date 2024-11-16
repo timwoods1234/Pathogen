@@ -1,0 +1,11 @@
+<EntityDefinition name="DefaultWeapon">
+	<Collider radius="10"/>
+	<Sprite filename="DefaultWeapon"/>
+	<Damage damage="1.0">
+		<Target plugin="AI"/>
+		<Target plugin="Egg"/>
+	</Damage>
+	<Movement speed="280.0"/>
+	<EscapePlugin/>
+	<Projectile/>
+</EntityDefinition>

@@ -1,0 +1,3 @@
+<Sprite name="Explosion">
+	<Animation animationName="Idle" numFrames="11" frameRate="4" loop="false"/>
+</Sprite>

@@ -1,0 +1,33 @@
+
+critical:
+
+- UI coords for buttons
+
+- UI visibility can only support one plugin per group now?
+	- think about some alternatives for structuring this
+	- what does this mean?
+
+- profile the game
+
+- what if save/game data doesn't exist?
+
+- testing!
+
+- back to editor mode to make sure everything works there too
+
+---
+
+nice to have:
+
+- player movement
+	- mouse controls
+
+- add sound/effect for bullets hitting (feedback)?
+
+- editor delete sprite is too big
+- editor could have 'delete all' button (create new)
+- editor button size doesn't seem to match logic
+
+---
+
+- engine: why is scene in UI folder?

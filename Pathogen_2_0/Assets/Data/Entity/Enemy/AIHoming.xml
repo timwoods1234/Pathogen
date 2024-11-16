@@ -1,0 +1,14 @@
+<EntityDefinition name="AIHoming">
+	<Collider radius="10"/>
+	<Sprite filename="AIHoming"/>
+	<AI controller="AIHoming" decisionDelay="1.0"/>
+	<Damage damage="1.0">
+		<Target plugin="PlayerPositionPlugin"/>
+	</Damage>
+	<EscapePlugin escapeDamage="1"/>
+	<Health maxHealth="1.0"/>
+	<Movement speed="50.0"/>
+	<Score score="1"/>
+	<Death deathParticle="ParticleEffect" deathSound="die"/>
+	<EditorPlugin editorSprite="Editor_AIHoming"/>
+</EntityDefinition>

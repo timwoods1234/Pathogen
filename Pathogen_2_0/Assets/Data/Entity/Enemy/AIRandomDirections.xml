@@ -1,0 +1,14 @@
+<EntityDefinition name="AIRandom">
+	<Collider radius="10"/>
+	<Sprite filename="AIRandom"/>
+	<AI controller="AIRandomDirections" decisionDelay="2.0"/>
+	<Damage damage="1.0">
+		<Target plugin="PlayerPositionPlugin"/>
+	</Damage>
+	<EscapePlugin escapeDamage="1"/>
+	<Health maxHealth="1.0"/>
+	<Movement speed="50.0"/>
+	<Score score="1"/>
+	<Death deathParticle="ParticleEffect" deathSound="die"/>
+	<EditorPlugin editorSprite="Editor_AIRandom"/>
+</EntityDefinition>

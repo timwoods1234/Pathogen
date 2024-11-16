@@ -1,0 +1,4 @@
+<Config width="640" height="480" windowed="true" useBatching="true">
+	<Atlas name="AtlasUI"/>
+	<Atlas name="Atlas2D"/>
+</Config>

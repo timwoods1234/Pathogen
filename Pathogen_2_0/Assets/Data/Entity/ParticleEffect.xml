@@ -1,0 +1,4 @@
+<EntityDefinition name="ParticleEffect">
+	<Sprite filename="Explosion" offsetX="-16" offsetY="-16"/>
+	<EffectPlugin/>
+</EntityDefinition>

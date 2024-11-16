@@ -1,0 +1,14 @@
+<EntityDefinition name="AIForward">
+	<Collider radius="10"/>
+	<Sprite filename="AIForward"/>
+	<AI controller="AIForward"/>
+	<Damage damage="1.0">
+		<Target plugin="PlayerPositionPlugin"/>
+	</Damage>
+	<EscapePlugin escapeDamage="1"/>
+	<Health maxHealth="1.0"/>
+	<Movement speed="50.0"/>
+	<Score score="1"/>
+	<Death deathParticle="ParticleEffect" deathSound="die"/>
+	<EditorPlugin editorSprite="Editor_AIForward"/>
+</EntityDefinition>

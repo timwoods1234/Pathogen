@@ -1,0 +1,9 @@
+<EntityDefinition name="SuperEgg">
+	<Collider radius="10"/>
+	<Sprite filename="SuperEgg"/>
+	<Health maxHealth="18.0"/>
+	<Egg hatchTime="0.0" multiplyTime="8.0" multiplyPayload="Enemy/Egg"/>
+	<PulseOverTime pulseSpeed="2.0"/>
+	<Death deathParticle="ParticleEffect" deathSound="die"/>
+	<EditorPlugin editorSprite="Editor_SuperEgg"/>
+</EntityDefinition>

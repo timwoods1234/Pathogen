@@ -1,0 +1,18 @@
+<UIGroup name="GameOver">
+
+	<UIObject name="title" x="192" y="10">
+		<UISprite texture="GameOverTitle"/>
+	</UIObject>
+
+	<UIObject name="scoreText" x="192" y="150">
+		<UILabel font="Helvetica" defaultText="Total Score"/>
+		<UILabel font="Helvetica" defaultText="You Score X" offsetY="50"/>
+		<UILabelUpdater UIMapping="PlayerStats" UIStringMapping="GetScore"/>
+	</UIObject>
+
+	<UIObject name="quitButton" x="256" y="100">
+		<UISprite texture="MenuQuit" width="128" height="32"/>
+		<UIButton width="128" height="32" UIMapping="Playing" UICallback="Menu"  hoveredTexture="ButtonHovered"/>
+	</UIObject>
+
+</UIGroup>

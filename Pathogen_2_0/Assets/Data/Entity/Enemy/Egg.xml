@@ -1,0 +1,13 @@
+<EntityDefinition name="Egg">
+	<Collider radius="10"/>
+	<Sprite filename="Egg"/>
+	<Health maxHealth="5.0"/>
+	<Egg hatchTime="21.0" multiplyTime="12.0">
+		<SpawnableAI id="Enemy/AIForward"/>
+		<SpawnableAI id="Enemy/AIHoming"/>
+		<SpawnableAI id="Enemy/AIRandomDirections"/>
+	</Egg>
+	<PulseOverTime pulseSpeed="2.0"/>
+	<Death deathParticle="ParticleEffect" deathSound="die"/>
+	<EditorPlugin editorSprite="Editor_Egg"/>
+</EntityDefinition>

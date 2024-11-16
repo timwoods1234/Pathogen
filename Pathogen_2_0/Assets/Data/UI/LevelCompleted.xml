@@ -1,0 +1,9 @@
+<UIGroup name="LevelCompleted">
+
+	<UIObject name="title" x="225" y="215">
+		<UISprite texture="LevelCompleted"/>
+		<UIScaler/>
+		<UIScaleAnimation/>
+	</UIObject>
+
+</UIGroup>

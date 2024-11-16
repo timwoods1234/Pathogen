@@ -1,0 +1,22 @@
+<Atlas name="Atlas2D">
+	<AtlasEntry filename="Assets/2D/Background/Idle/Background_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_0.png" width="640.000" height="480.000" texCoordX="0.000" texCoordY="0.000" texCoordZ="1.000" texCoordW="1.000"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_01.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.000" texCoordY="0.000" texCoordZ="0.125" texCoordW="0.125"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_02.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.127" texCoordY="0.000" texCoordZ="0.252" texCoordW="0.125"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_03.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.254" texCoordY="0.000" texCoordZ="0.379" texCoordW="0.125"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_04.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.381" texCoordY="0.000" texCoordZ="0.506" texCoordW="0.125"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_05.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.508" texCoordY="0.000" texCoordZ="0.633" texCoordW="0.125"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_06.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.635" texCoordY="0.000" texCoordZ="0.760" texCoordW="0.125"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_07.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.762" texCoordY="0.000" texCoordZ="0.887" texCoordW="0.125"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_08.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.000" texCoordY="0.127" texCoordZ="0.125" texCoordW="0.252"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_09.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.127" texCoordY="0.127" texCoordZ="0.252" texCoordW="0.252"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_10.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.254" texCoordY="0.127" texCoordZ="0.379" texCoordW="0.252"/>
+	<AtlasEntry filename="Assets/2D/Explosion/Idle/Explosion_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="64.000" height="64.000" texCoordX="0.381" texCoordY="0.127" texCoordZ="0.506" texCoordW="0.252"/>
+	<AtlasEntry filename="Assets/2D/Player/Idle/Player_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="36.000" height="40.000" texCoordX="0.508" texCoordY="0.127" texCoordZ="0.578" texCoordW="0.205"/>
+	<AtlasEntry filename="Assets/2D/EditorDelete/Idle/EditorDelete_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="32.000" height="32.000" texCoordX="0.580" texCoordY="0.127" texCoordZ="0.643" texCoordW="0.189"/>
+	<AtlasEntry filename="Assets/2D/SuperEgg/Idle/SuperEgg_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="16.000" height="16.000" texCoordX="0.645" texCoordY="0.127" texCoordZ="0.676" texCoordW="0.158"/>
+	<AtlasEntry filename="Assets/2D/DefaultWeapon/Idle/DefaultWeapon_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="16.000" height="16.000" texCoordX="0.678" texCoordY="0.127" texCoordZ="0.709" texCoordW="0.158"/>
+	<AtlasEntry filename="Assets/2D/Egg/Idle/Egg_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="16.000" height="16.000" texCoordX="0.711" texCoordY="0.127" texCoordZ="0.742" texCoordW="0.158"/>
+	<AtlasEntry filename="Assets/2D/AIRandom/Idle/AIRandom_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="16.000" height="16.000" texCoordX="0.744" texCoordY="0.127" texCoordZ="0.775" texCoordW="0.158"/>
+	<AtlasEntry filename="Assets/2D/AIHoming/Idle/AIHoming_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="16.000" height="16.000" texCoordX="0.777" texCoordY="0.127" texCoordZ="0.809" texCoordW="0.158"/>
+	<AtlasEntry filename="Assets/2D/AIForward/Idle/AIForward_Idle_00.png" texturePage="Assets/Atlas/Atlas2D_1.png" width="16.000" height="16.000" texCoordX="0.811" texCoordY="0.127" texCoordZ="0.842" texCoordW="0.158"/>
+</Atlas>

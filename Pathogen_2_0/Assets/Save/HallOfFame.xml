@@ -1,0 +1,12 @@
+<HallOfFame>
+	<HallOfFameEntry name="Test0" score="10"/>
+	<HallOfFameEntry name="Test1" score="9"/>
+	<HallOfFameEntry name="Test2" score="8"/>
+	<HallOfFameEntry name="Test4" score="7"/>
+	<HallOfFameEntry name="Test5" score="6"/>
+	<HallOfFameEntry name="Test6" score="5"/>
+	<HallOfFameEntry name="Test7" score="4"/>
+	<HallOfFameEntry name="Test8" score="3"/>
+	<HallOfFameEntry name="Test9" score="2"/>
+	<HallOfFameEntry name="Test10" score="0"/>
+</HallOfFame>

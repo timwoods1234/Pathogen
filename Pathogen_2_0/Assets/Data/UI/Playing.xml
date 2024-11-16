@@ -1,0 +1,91 @@
+<UIGroup name="Playing">
+
+	<UIStateVisibility UIMapping="PlayerStats" UIStateMapping="GetNumLives" activeState="0">
+		<VisibilityToggle target="lives1" visible="false"/>
+		<VisibilityToggle target="lives2" visible="false"/>
+		<VisibilityToggle target="lives3" visible="false"/>
+		<VisibilityToggle target="lives4" visible="false"/>
+	</UIStateVisibility>
+	
+	<UIStateVisibility UIMapping="PlayerStats" UIStateMapping="GetNumLives" activeState="1">
+		<VisibilityToggle target="lives1" visible="true"/>
+		<VisibilityToggle target="lives2" visible="false"/>
+		<VisibilityToggle target="lives3" visible="false"/>
+		<VisibilityToggle target="lives4" visible="false"/>
+	</UIStateVisibility>
+	
+	<UIStateVisibility UIMapping="PlayerStats" UIStateMapping="GetNumLives" activeState="3">
+		<VisibilityToggle target="lives1" visible="true"/>
+		<VisibilityToggle target="lives2" visible="true"/>
+		<VisibilityToggle target="lives3" visible="false"/>
+		<VisibilityToggle target="lives4" visible="false"/>
+	</UIStateVisibility>
+	
+	<UIStateVisibility UIMapping="PlayerStats" UIStateMapping="GetNumLives" activeState="4">
+		<VisibilityToggle target="lives1" visible="true"/>
+		<VisibilityToggle target="lives2" visible="true"/>
+		<VisibilityToggle target="lives3" visible="true"/>
+		<VisibilityToggle target="lives4" visible="false"/>
+	</UIStateVisibility>
+	
+	<UIStateVisibility UIMapping="PlayerStats" UIStateMapping="GetNumLives" activeState="5">
+		<VisibilityToggle target="lives1" visible="true"/>
+		<VisibilityToggle target="lives2" visible="true"/>
+		<VisibilityToggle target="lives3" visible="true"/>
+		<VisibilityToggle target="lives4" visible="true"/>
+	</UIStateVisibility>
+	
+	<UIObject name="score" x="80" y="14">
+		<UISprite texture="score" offsetX="-65" offsetY="-7"/>
+		<UILabel r="255" g="255" b="255" font="Helvetica" defaultText="Your Score X"/>
+		<UILabelUpdater UIMapping="PlayerStats" UIStringMapping="GetScore"/>
+	</UIObject>
+		
+	<UIObject name="shield" x="444" y="10">
+		<UISprite texture="shield"/>
+		<UILabel r="255" g="255" b="255" font="Helvetica" defaultText="Your Shield X"/>
+		<UILabelUpdater UIMapping="PlayerStats" UIStringMapping="GetShield"/>
+	</UIObject>
+	
+	<UIObject name="shieldBack" x="510" y="10">
+		<UISprite texture="shieldBack"/>
+	</UIObject>
+	
+	<UIObject name="shieldFront" x="510" y="10">
+		<UISprite texture="shieldFront"/>
+		<UIScaler UIMapping="PlayerStats" UIFunction="GetShieldRelative" type="width"/>
+	</UIObject>
+	
+	<UIObject name="continues" x="600" y="66">
+		<UISprite texture="continues" offsetX="-90" offsetY="-7"/>
+		<UILabel r="255" g="255" b="255" font="Helvetica" defaultText="Your Continues X"/>
+		<UILabelUpdater UIMapping="PlayerStats" UIStringMapping="GetNumLives"/>
+	</UIObject>
+	
+	<UIObject name="level" x="600" y="125">
+		<UISprite texture="level" offsetX="-55" offsetY="-6"/>
+		<UILabel r="255" g="255" b="255" font="Helvetica" defaultText="Your Level X"/>
+		<UILabelUpdater UIMapping="PlayerStats" UIStringMapping="GetLevel"/>
+	</UIObject>
+	
+	<UIObject name="title" x="480" y="425">
+		<UISprite texture="MenuTitle" width="150" height="45"/>
+	</UIObject>
+	
+	<UIObject name="lives1" x="10" y="52">
+		<UISprite texture="lives"/>
+	</UIObject>
+	
+	<UIObject name="lives2" x="10" y="96">
+		<UISprite texture="lives"/>
+	</UIObject>
+	
+	<UIObject name="lives3" x="10" y="140">
+		<UISprite texture="lives"/>
+	</UIObject>
+	
+	<UIObject name="lives4" x="10" y="184">
+		<UISprite texture="lives"/>
+	</UIObject>
+	
+</UIGroup>
